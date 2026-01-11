@@ -12,12 +12,10 @@ import { SiTailwindcss, SiDjango, SiTypescript, SiVite } from "react-icons/si";
 
 const techStack = [
     { name: "React", icon: FaReact },
-    { name: "Tailwind CSS", icon: SiTailwindcss },
+    { name: "Tailwind", icon: SiTailwindcss },
     { name: "JavaScript", icon: FaJsSquare },
     { name: "Node.js", icon: FaNodeJs },
-    { name: "TypeScript", icon: SiTypescript },
     { name: "Django", icon: SiDjango },
-    { name: "Vite", icon: SiVite },
     { name: "HTML5", icon: FaHtml5 },
     { name: "CSS3", icon: FaCss3Alt },
 ];
@@ -35,7 +33,7 @@ const TechMarquee = () => {
                 className="inline-flex mt-5"
                 animate={{ x: ["0%", "-50%"] }}
                 transition={{
-                    x: { repeat: Infinity, repeatType: "loop", duration: 20, ease: "linear" },
+                    x: { repeat: Infinity, repeatType: "loop", duration: 18, ease: "linear" },
                 }}
             >
                 {[...techStack, ...techStack].map((tech, idx) => {
@@ -43,9 +41,9 @@ const TechMarquee = () => {
                     return (
                         <span
                             key={idx}
-                            className="inline-flex items-center px-4 py-2 mx-2 text-white font-semibold text-sm md:text-sm space-x-2"
+                            className="inline-flex items-center px-4 py-2 mx-5 text-white font-semibold text-sm md:text-sm space-x-2"
                         >
-                            <Icon className="w-5 h-5" />
+                            <Icon className="w-6 h-6" />
                             <span>{tech.name}</span>
                         </span>
                     );

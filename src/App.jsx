@@ -5,6 +5,7 @@ import TechMarquee from "./components/TechStack"
 import Works from "./components/Works"
 import Contact from "./components/Contact"
 function App() {
+  // 
   return (
     <div className="bg-gray-900 w-full min-h-screen px-0 md:px-40 py-20">
       <Header />
@@ -16,7 +17,7 @@ function App() {
           <Experience />
         </div>
       </div>
-      <TechMarquee />
+      <TechMarquee /> 
       <Works />
       <Contact />
     </div>

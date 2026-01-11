@@ -19,7 +19,7 @@ const Header = () => {
                             <MapPin className='w-4 h-4' />
                             <span>Lucena City, Quezon Province</span>
                         </div>
-                        <p className="text-gray-400 text-sm mt-1 italic">“Fuck around and Find out.”</p>
+                        <p className="text-gray-400 text-sm mt-1 italic">“calm sea doesn't make good sailors”</p>
                     </div>
 
                     <div className=''>
