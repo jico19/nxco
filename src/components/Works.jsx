@@ -24,7 +24,7 @@ const Works = () => {
 
             <div className="flex items-center text-2xl font-bold text-white">
                 <LayoutPanelLeft className="w-7 h-7 mr-2" />
-                <span>Tech Stack</span>
+                <span>Project/Works</span>
             </div>
 
             <div className="grid grid-cols-1  mt-5 md:grid-cols-2 lg:grid-cols-3 gap-8">
