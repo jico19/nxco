@@ -28,7 +28,7 @@ const Header = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             type='button'
-                            className="inline-flex items-center text-sm font-bold bg-blue-500 px-3 py-2 rounded-sm hover:bg-blue-600 transition-colors"
+                            className="inline-flex items-center text-sm font-bold bg-gray-500 px-3 py-2 rounded-sm hover:bg-gray-600 transition-colors"
                         >   
                             <Download className='w-5 h-5 mr-2'/>
                             Download Resume
