@@ -41,7 +41,7 @@ const TechMarquee = () => {
                     return (
                         <span
                             key={idx}
-                            className="inline-flex items-center px-4 py-2 mx-5 text-white font-semibold text-sm md:text-sm space-x-2"
+                            className="inline-flex items-center px-4 py-2 mx-5 text-white font-mono text-sm md:text-sm space-x-2"
                         >
                             <Icon className="w-6 h-6" />
                             <span>{tech.name}</span>

@@ -4,23 +4,31 @@ import Experience from "./components/Experience"
 import TechMarquee from "./components/TechStack"
 import Works from "./components/Works"
 import Contact from "./components/Contact"
+import ScrollProgressBar from "./components/ScrollProgressBar"
+
+
 function App() {
   // 
   return (
-    <div className="bg-gray-900 w-full min-h-screen px-0 md:px-40 py-20">
-      <Header />
-      <div className="flex flex-col md:flex-row w-full">
-        <div className="w-full md:w-1/2">
-          <About />
+    <>
+      <ScrollProgressBar/>
+
+      <div className="bg-gray-900 w-full min-h-screen px-0 md:px-40 py-20">
+        <Header />
+        <div className="flex flex-col md:flex-row w-full">
+          <div className="w-full md:w-1/2">
+            <About />
+          </div>
+          <div className="w-full md:w-1/2">
+            <Experience />
+          </div>
         </div>
-        <div className="w-full md:w-1/2">
-          <Experience />
-        </div>
+        <TechMarquee />
+        <Works />
+        <Contact />
       </div>
-      <TechMarquee /> 
-      <Works />
-      <Contact />
-    </div>
+    </>
+
   )
 }
 

@@ -34,10 +34,10 @@ const Experience = () => {
 
                             {/* Content */}
                             <div className="-translate-y-1.5 pb-8 text-slate-600">
-                                <p className="font-sans text-base font-bold text-slate-800 antialiased dark:text-white">
+                                <p className="font-mono text-base font-bold text-slate-800 antialiased dark:text-white">
                                     {items.date}
                                 </p>
-                                <small className="mt-2 block font-sans text-sm leading-relaxed text-slate-700 dark:text-slate-300 antialiased">
+                                <small className="mt-2 block font-mono text-sm leading-relaxed text-slate-700 dark:text-slate-300 antialiased">
                                     {items.text}
                                 </small>
                             </div>
