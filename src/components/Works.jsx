@@ -5,15 +5,15 @@ const projects = [
         name: "Portfolio Website",
         description: "My personal portfolio showcasing my skills and projects.",
         tech: ["React", "Tailwind", "Framer Motion", "Vite"],
-        github: "https://github.com/username/portfolio",
-        demo: "https://portfolio-demo.com",
+        github: "https://github.com/jico19/nxco",
+        demo: "https://jico.vercel.app/",
     },
     {
         name: "LCBNB",
         description:
             "A management information system for boarding house owner, tracking leases, payments, and tenants.",
         tech: ["React", "Django (DRF)", "Tailwind",],
-        github: "https://github.com/username/store-rentals",
+        github: "https://github.com/jico19/PELEC304-Project",
         demo: "https://lcbnb.netlify.app/",
     },
 ];
