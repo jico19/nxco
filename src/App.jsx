@@ -11,7 +11,7 @@ function App() {
   // 
   return (
     <>
-      <ScrollProgressBar/>
+      {/* <ScrollProgressBar/> */}
 
       <div className="bg-gray-900 w-full min-h-screen px-0 md:px-40 py-20">
         <Header />
